@@ -1,0 +1,419 @@
+body{
+    background-color: #F0F8FF;
+}
+
+h1{
+    color: darkgreen;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background-color:white;
+}
+
+.hero{
+    height:40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color:pink;
+}
+.hero-content{
+    background-color: #F0F8FF;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:80px;
+    height:auto;
+}
+
+.logo h1{
+    color:#66FF33;
+    margin:0;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#66FF33;
+    font-weight:bold;
+    font-size:18px;
+}
+
+
+nav a:hover{
+    color:#3E8E41;
+
+
+}
+
+.about-preview{
+    text-align:center;
+    padding:100px;
+}
+
+.about-preview h2{
+    color:#66FF33;
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.about-preview p{
+    font-size:30px;
+    color:#000;
+    line-height:1.8;
+    max-width:800px;
+    margin:auto;
+}
+
+.card-container{
+    display:flex;
+    justify-content:space-between;
+    padding:0 50px;
+}
+
+.card{
+    width:250px;
+}
+.card img{
+    width:350px;
+    height:300px;
+    object-fit:cover;
+}
+
+.card{
+    text-align:center;
+}
+
+.why-us{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.reasons{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}
+
+.reason{
+    background-color:white;
+    padding:20px;
+    width:200px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    font-weight:bold;
+    color:#3E8E41;
+}
+
+.btn{
+    background-color:#66FF33;
+    color:black;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:8px;
+    font-weight:bold;
+    display:inline-block;
+    margin-top:15px;
+}
+.btn:hover{
+    background-color:#3E8E41;
+    color:white;
+}
+
+.about-page{
+    text-align:center;
+    padding:60px 100px;
+}
+
+.about-page h2{
+    color:#66FF33;
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.about-page p{
+    font-size:20px;
+    line-height:1.8;
+    max-width:900px;
+    margin:auto;
+    margin-bottom:20px;
+}
+.about-page{
+    text-align:center;
+    padding:60px 100px;
+}
+
+.about-page h2{
+    color:#66FF33;
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+.about-page p{
+    font-size:15px;
+    line-height:1.8;
+    max-width:900px;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.about-page{
+    background-color:white;
+    border-radius:15px;
+    padding:50px;
+    width:80%;
+    margin:50px auto;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+
+.about-highlights {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    background-color: white;
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-8px);
+}
+
+.info-box h2 {
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #66FF33;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #66FF33;   /* your Foodie Fiesta lime green */
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+   color: #3E8E41;
+}
+
+.nav-links li a:hover {
+  color: #3E8E41;;
+}
+
+/* MENU SECTION */
+.menu-section {
+  padding: 50px;
+}
+
+.menu-section h1 {
+  text-align: center;
+  color: darkgreen;
+  margin-bottom: 30px;
+}
+
+.menu-section h2 {
+  margin-top: 40px;
+  color: #333;
+}
+
+.menu-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.menu-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 220px;
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+}
+
+.menu-card h3 {
+  margin: 0 0 10px;
+  color:  #555;
+}
+
+.menu-card p {
+  color:  #555;
+  font-size: 14px;
+}
+
+.menu-card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background-color:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:80px;
+    height:auto;
+}
+
+.logo h1{
+    color:#66FF33;
+    margin:0;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:25px;
+    margin:0;
+    padding:0;
+}
+
+.nav-links li a{
+    text-decoration:none;
+    color:#66FF33;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.nav-links li a:hover{
+    color:#3E8E41;
+}
+
+.section-title{
+    background-color: #A8D5BA;
+    padding:15px;
+    margin:30px 0 20px 0;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.section-title h2{
+    margin:0;
+    color:black;
+    font-size:28px;
+}
+
+.menu-section{
+    padding:50px;
+    background-color:white;
+    border:3px solid #A8D5BA;
+    border-radius:15px;
+    margin:30px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+border:3px solid #7DA87B;
+
+.contact-section{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-section h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.contact-info{
+    margin-bottom:30px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.contact-form button{
+    border:none;
+    cursor:pointer;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    background-color:#A8D5BA;
+    margin-top:30px;
+}
